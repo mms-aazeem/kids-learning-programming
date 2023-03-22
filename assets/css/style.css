@@ -1,0 +1,210 @@
+.banner{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-left: 130px;
+}
+.nav-link{
+  font-family: 'Heebo', 'Arial Narrow', Arial, sans-serif;
+  color: #43ABCC;
+  font-size: 14px;
+  text-decoration: none;
+}
+.menu a:hover{
+  color: #616060;
+  font-weight: bolder;
+  text-decoration: none;
+  border-bottom: 3px solid #616060;
+}
+.active{
+  color: #43ABCC;
+  font-weight: bolder;
+  border-bottom: 3px solid #43ABCC;
+}
+.card{
+  width: 250px;
+  margin-right: 20px;
+}
+.card img{
+  height: 130px;
+}
+.card-title{
+  font-size: 15px;
+}
+.course{
+  justify-content: center;
+}
+.course-heading{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-align: center;
+}
+.banner-txt{
+  font-size: 50px; 
+  font-family: 'Finger Paint', Courier, monospace;
+  padding-top: 50px;
+}
+.banner-img{
+  padding-left: 70px;
+}
+.step-banner{
+  height: 120px;
+  margin-bottom: 40px;
+}
+.step{
+  text-align: center;
+  height: 150px;
+}
+.step-title{
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 10px;
+}
+.step-body{
+  text-align: center;
+  padding-bottom: 10px;
+  height: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+.circle {
+  margin-left: 45%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ccc;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+.quote-circle{
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ccc;
+  color: #fff;
+  text-align: center;
+}
+.quote{
+  padding: 20px;
+}
+.quote-img{
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.quote-text{
+  font-size: 30px;
+  font-style: italic;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+input[type='email'] {
+  width: 100%;
+  padding: 0.4rem;
+  border-radius: 20px;
+  border-color: #43ABCC;
+}
+input[type='email']::placeholder {
+  color: #43ABCC;
+  padding-left: 20px;
+}
+
+button[type='submit'] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #43ABCC;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  width: 130px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 3rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 3rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+
+
+
+@media (max-width: 767.98px) { 
+  .banner{
+    flex-direction: column;
+  }
+  .banner-text{
+    order: 2;
+  }
+  .banner-img{
+    order: 1;
+  }
+  .banner-txt{
+    padding-top: 10px;
+    font-size: 36px;
+  }
+
+  .course{
+    margin: 20%;
+    margin-bottom: 10px;
+  }
+  .card{
+    margin-bottom: 10px;
+  }
+  .course-heading{
+    font-size: 15px;
+    text-align: center;
+  }
+
+ }
