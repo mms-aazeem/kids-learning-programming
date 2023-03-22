@@ -256,6 +256,7 @@ nav {
   }
   .menu.show-menu {
     display: flex;
+    background-color: #87c1e8;
   }
   .menu li {
     margin-bottom: 0.5rem;
